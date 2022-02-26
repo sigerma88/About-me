@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+import profile_pic from "./Images/EFL_0515.jpg"
+import Icons from "./Components/Icons/Icons.js";
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <header className="title">Siger Ma</header>
+      <img className = "profile_pic" src={profile_pic} alt=""></img>
+      <p className="description">I am a hardworking first year student in Software Engineering Co-op.</p>
+      <Icons></Icons>
     </div>
   );
 }
