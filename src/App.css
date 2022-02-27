@@ -1,5 +1,5 @@
 body {
-  background-color: coral;
+  background-color: rgba(255, 127, 80, 0.685);
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -29,12 +29,50 @@ body {
   max-width: 50px;
 }
 
+.button1 {
+  border-style: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.button1:hover {
+  opacity: 0.4;
+}
+
 .github {
-  margin-left: 20px;
   max-width: 50px;
 }
 
+.button2 {
+  border-style: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.button2:hover {
+  opacity: 0.4;
+}
+
 .mail {
-  margin-left: 20px;
   max-width: 50px;
+}
+
+.button3 {
+  border-style: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.button3:hover {
+  opacity: 0.4;
+}
+
+.cv {
+  max-width: 50px;
+}
+
+.button4 {
+  border-style: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.button4:hover {
+  opacity: 0.4;
 }
