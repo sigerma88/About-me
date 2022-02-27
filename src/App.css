@@ -32,10 +32,11 @@ body {
 .button1 {
   border-style: none;
   background-color: rgba(0, 0, 0, 0);
+  opacity: 0.4;
 }
 
 .button1:hover {
-  opacity: 0.4;
+  opacity: 1;
 }
 
 .github {
@@ -45,10 +46,11 @@ body {
 .button2 {
   border-style: none;
   background-color: rgba(0, 0, 0, 0);
+  opacity: 0.4;
 }
 
 .button2:hover {
-  opacity: 0.4;
+  opacity: 1;
 }
 
 .mail {
@@ -58,10 +60,11 @@ body {
 .button3 {
   border-style: none;
   background-color: rgba(0, 0, 0, 0);
+  opacity: 0.4;
 }
 
 .button3:hover {
-  opacity: 0.4;
+  opacity: 1;
 }
 
 .cv {
@@ -71,10 +74,11 @@ body {
 .button4 {
   border-style: none;
   background-color: rgba(0, 0, 0, 0);
+  opacity: 0.4;
 }
 
 .button4:hover {
-  opacity: 0.4;
+  opacity: 1;
 }
 
 .bookshelf {
@@ -90,5 +94,5 @@ body {
 .tabs {
   background-color: rgba(47, 79, 79, 0.452);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 200%;
+  font-size: 150%;
 }

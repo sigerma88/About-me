@@ -1,5 +1,6 @@
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
+import {Table1, Table2, Table3} from "./Tables.js"
 
 function Bookshelf() {
     return (
@@ -11,13 +12,13 @@ function Bookshelf() {
             </TabList>
 
             <TabPanel>
-                <h2>Any content 1</h2>
+                <Table1></Table1>
             </TabPanel>
             <TabPanel>
-                <h2>Any content 2</h2>
+                <Table2></Table2>
             </TabPanel>
             <TabPanel>
-                <h2>Any content 3</h2>
+                <Table3></Table3>
             </TabPanel>
         </Tabs>
     )
