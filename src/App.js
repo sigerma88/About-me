@@ -2,7 +2,8 @@ import ReactTooltip from 'react-tooltip';
 import profile_pic from "./Images/EFL_0515.jpg";
 import {Icon1, Icon2, Icon3, Icon4} from "./Components/Icons/Icons.js";
 import './App.css';
-
+import Bookshelf from "./Components/Bookshelf/Bookshelf.js"
+import { Tabs } from 'react-tabs';
 
 function App() {
   return (
@@ -35,6 +36,10 @@ function App() {
         Resume
       </ReactTooltip>
       <header className="bookshelf">Bookshelf</header>
+      <Tabs className = "appTabs">
+        <Bookshelf></Bookshelf>
+      </Tabs>
+      <footer className="footer">AD ALTIUM SEMPER ADFECTARE, INSATIATUS MANERE</footer>
     </div>
   );
 }
