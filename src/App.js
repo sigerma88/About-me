@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <header className="title">Siger Ma</header>
       <img className = "profile_pic" src={profile_pic} alt=""></img>
-      <p className="description">I am a hardworking first year student in Software Engineering Co-op.</p>
+      <p className="description">I am a hardworking first year student in Software Engineering Co-op at McGill University.</p>
       <button className = "button1" data-tip data-for="LinkedIn">
         <Icon1></Icon1>
       </button>
@@ -34,8 +34,9 @@ function App() {
       <ReactTooltip id='Resume' effect='solid' backgroundColor='#fa362f'>
         Resume
       </ReactTooltip>
+      <header className="bookshelf">Bookshelf</header>
     </div>
   );
 }
 
-export default App;
+export default App
