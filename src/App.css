@@ -99,9 +99,21 @@ body {
 }
 
 .bookshelf {
-  margin-block: 5%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 40%;
+  margin-right: 40%;
+  border-radius: 20px;
+  height: 70px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 360%;
+  background-color: indianred;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.bookshelf:active {
+  opacity: 1;
 }
 
 .appTabs {
@@ -162,6 +174,7 @@ body {
   border-radius: 10px;
   opacity: 0.4;
   box-shadow: 0 9px #999;
+  cursor: pointer;
 }
 
 .table3InputButton:hover {
