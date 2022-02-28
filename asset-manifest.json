@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/About-me/static/css/main.44ab7be4.css",
-    "main.js": "/About-me/static/js/main.e9813f46.js",
+    "main.js": "/About-me/static/js/main.d890dd83.js",
     "static/js/787.1ed0c42c.chunk.js": "/About-me/static/js/787.1ed0c42c.chunk.js",
     "static/media/EFL_0515.jpg": "/About-me/static/media/EFL_0515.d8b6ac33e87e5c611d87.jpg",
-    "static/media/Siger MA-Resume.pdf": "/About-me/static/media/Siger MA-Resume.8d1b5282e70288a429d8.pdf",
+    "static/media/Siger MA-Resume.pdf": "/About-me/static/media/Siger MA-Resume.1584a90e957e3f916f8a.pdf",
     "static/media/cv.png": "/About-me/static/media/cv.6f51ea563bc9c183c97c.png",
     "static/media/linkedin.png": "/About-me/static/media/linkedin.93e947dcdea3a703bd31.png",
     "static/media/mail.png": "/About-me/static/media/mail.90dd7fc499822d63d5d7.png",
     "index.html": "/About-me/index.html",
     "main.44ab7be4.css.map": "/About-me/static/css/main.44ab7be4.css.map",
-    "main.e9813f46.js.map": "/About-me/static/js/main.e9813f46.js.map",
+    "main.d890dd83.js.map": "/About-me/static/js/main.d890dd83.js.map",
     "787.1ed0c42c.chunk.js.map": "/About-me/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.44ab7be4.css",
-    "static/js/main.e9813f46.js"
+    "static/js/main.d890dd83.js"
   ]
 }
