@@ -101,10 +101,12 @@ body {
 .bookshelf {
   margin-top: 100px;
   margin-bottom: 100px;
-  margin-left: 40%;
-  margin-right: 40%;
   border-radius: 20px;
+  display: inline-block;
   height: 70px;
+  width: 320px;
+  text-align: left;
+  padding-left: 15px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 360%;
   background-color: indianred;
