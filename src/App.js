@@ -9,7 +9,7 @@ import { Tabs } from 'react-tabs';
 
 function App() {
 
-  const { getCollapseProps, getToggleProps, isExpanded } = useCollapse({ duration: 1100});
+  const { getCollapseProps, getToggleProps, isExpanded } = useCollapse({ duration: 1100 });
 
   return (
     <div className="App">

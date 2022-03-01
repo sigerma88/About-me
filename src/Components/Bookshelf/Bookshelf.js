@@ -12,12 +12,12 @@ function Bookshelf() {
                     <Tab>Recommendations</Tab>
                 </TabList>
 
-                <TabPanel>
+                <TabPanel className = "Table1-2" >
                     <Table1 />
                     <p>This list is incomplete :(</p>
                     <p>Many more books will be added in the future!</p>
                 </TabPanel>
-                <TabPanel>
+                <TabPanel className = "Table1-2" >
                     <Table2 />
                 </TabPanel>
                 <TabPanel>
